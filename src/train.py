@@ -35,7 +35,7 @@ tf.app.flags.DEFINE_string('year', '2007',
 tf.app.flags.DEFINE_string('train_dir', '/tmp/xinyu/logs/squeezeDet/train',
                             """Directory where to write event logs """
                             """and checkpoint.""")
-tf.app.flags.DEFINE_integer('max_steps', 1000000,
+tf.app.flags.DEFINE_integer('max_steps', 100000,
                             """Maximum number of batches to run.""")
 tf.app.flags.DEFINE_string('net', 'squeezeDet',
                            """Neural net architecture. """)
